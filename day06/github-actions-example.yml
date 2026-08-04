@@ -1,0 +1,21 @@
+name: YAML Practice
+
+on:
+  workflow_dispatch:
+
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+
+    env:
+      APP_ENV: testing
+      PYTHON_VERSION: "3.11"
+
+    steps:
+      - name: Display environment
+        run: |
+          echo "Application environment: $APP_ENV"
+          echo "Python version: $PYTHON_VERSION"
+
+      - name: Display completion message
+        run: echo "YAML practice completed"

@@ -1,0 +1,12 @@
+environments:
+  - name: development
+    automatic-deployment: true
+    replicas: 1
+
+  - name: staging
+    automatic-deployment: true
+    replicas: 2
+
+  - name: production
+    automatic-deployment: false
+    replicas: 3

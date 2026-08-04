@@ -1,0 +1,8 @@
+application:
+  name: cicd-fastapi-platform
+  version: "1.0.0"
+  environment: development
+  debug: true
+  port: 8000
+
+
